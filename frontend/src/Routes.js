@@ -29,14 +29,6 @@ export default function Links() {
                 }
             />
             <Route
-                path="/settings"
-                element={
-                    <AuthenticatedRoute>
-                        <Settings />
-                    </AuthenticatedRoute>
-                }
-            />
-            <Route
                 path="/notes/new"
                 element={
                     <AuthenticatedRoute>
